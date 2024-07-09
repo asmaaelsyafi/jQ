@@ -1,0 +1,179 @@
+#home {
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    position: relative;
+
+
+    .layer {
+        background-color: rgba(233, 69, 69, 0.705);
+
+        h1 {
+            font-size: 60px;
+            line-height: 72px;
+            font-weight: 500;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+        }
+
+
+    }
+
+    #sidebar {
+        z-index: 999999;
+        .options {
+            width: 20%;
+            background-color: #111;
+            position: fixed;
+            top: 0;
+            left: -270px;
+
+            a {
+                font-size: 25px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                line-height: 37.5px;
+                font-weight: 400;
+                text-decoration: none;
+                color: #fff;
+                transition: all 0.2s;
+
+                &:hover {
+                    color: rgba(214, 46, 51, 0.4);
+                }
+            }
+
+            i {
+                color: #fff;
+                font-size: 30px;
+                transition: all 0.2s;
+
+                &:hover {
+                    color: rgba(214, 46, 51, 0.4);
+                }
+            }
+        }
+
+        #open {
+            position: absolute;
+            top: 50%;
+            left: 15px;
+            color: #fff;
+
+            i,
+            p {
+                font-size: 30px;
+                line-height: 45px;
+            }
+        }
+    }
+}
+
+#slider {
+  
+
+    .card {
+        --bs-card-border-width: 0px;
+
+        .card-header {
+            background-color: #e68285;
+            border-radius: 0;
+
+            button {
+                text-decoration-line: none;
+                color: white;
+                font-size: 28px;
+                line-height: 33.6px;
+                font-weight: 500;
+                background-color: #e68285;
+                padding: 10px 0;
+                margin-bottom: 0;
+            }
+        } 
+
+        .para {
+            color: black;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+            background-color: #cccccc;
+            padding: 10px 0;
+            margin-bottom: 0;
+
+        }
+
+    }
+}
+
+
+#counter {
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    .layer {
+        background-color: rgba(233, 69, 69, 0.705);
+    }
+
+    .inner {
+        border: 1px solid rgb(255, 255, 255);
+    }
+}
+
+#contacts {
+        
+    h2 {
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 42px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #444;
+    }
+    
+    h3 {
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 21.6px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #444;
+    }
+
+    p,
+    span {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #777;
+    }
+
+    i {
+        font-size: 16px;
+        color: #777;
+    }
+
+    .icons {
+        .icon {
+            width: 40px;
+            height: 40px;
+            border: 1px solid #777;
+            transition: all 0.2s;
+
+            &:hover {
+                background-color: #d62e33;
+                border: none;
+            }
+
+            &:hover i {
+                color: #fff;
+            }
+        }
+
+    }
+}
